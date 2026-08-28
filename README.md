@@ -12,7 +12,7 @@ A hands-on, practical repository designed to master intermediate and advanced Go
 - [x] **01. Channels & Select** (`01_channels/`): Buffered channels, `select`, non-blocking I/O, timeouts, and clean shutdowns.
 - [x] **02. Sync & Atomic Primitives** (`02_sync/`): `sync.RWMutex`, `sync.WaitGroup`, `sync.Once`, and high-throughput lock-free metrics using `sync/atomic`.
 - [x] **03. Context & Lifecycle Management** (`03_context/`): `context.Context`, cancellation propagation, timeouts/deadlines, value propagation, and preventing context leaks.
-- [ ] **04. Concurrency Patterns**: Worker Pools, Fan-in / Fan-out, Rate Limiting (Token Bucket / Leaky Bucket), and Semaphores.
+- [x] **04. Concurrency Patterns**: Worker Pools, Fan-in / Fan-out, Rate Limiting (Token Bucket / Leaky Bucket), and Semaphores.
 - [ ] **05. Group Error Handling**: `golang.org/x/sync/errgroup` lifecycle & error coordination.
 
 ### 2. Advanced Error Handling & Resilience
