@@ -16,7 +16,7 @@ A hands-on, practical repository designed to master intermediate and advanced Go
 - [x] **05. Group Error Handling**: `golang.org/x/sync/errgroup` lifecycle & error coordination.
 
 ### 2. Advanced Error Handling & Resilience
-- [ ] **06. Error Trees & Custom Types**: `Unwrap()`, `errors.Is()`, `errors.As()`, and structured domain errors.
+- [x] **06. Error Trees & Custom Types**: `Unwrap()`, `errors.Is()`, `errors.As()`, and structured domain errors.
 - [ ] **07. Concurrency Panic & Recovery**: Safe panic handling and recovery across worker goroutines.
 - [ ] **08. Resilience Patterns**: Circuit Breaker, Exponential Backoff + Retry mechanisms.
 

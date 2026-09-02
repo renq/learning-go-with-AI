@@ -13,7 +13,8 @@ This skill equips the Antigravity agent to act as an expert Go (Golang) mentor a
 ### 1. Task Delivery via Files
 - For each topic or exercise, create a separate directory/package (e.g., `01_channels`, `02_sync`, `03_context`) containing a `main.go` file.
 - Place the full task description, problem statement, and structured requirements in **English comments** at the top of `main.go`.
-- Provide only the skeleton code (package, imports, function/struct signatures with `// TODO`), never full solutions.
+- Provide only the minimal skeleton code (package, imports, function/struct placeholders with `// TODO`), never full or partial solutions.
+- **Do NOT pre-define or pre-populate parts of the task** in the code (e.g., do NOT declare sentinel errors, constants, struct fields, or helper values that the user is tasked with creating). Leave them as `// TODO: Define sentinel errors...` or `// TODO: Define struct fields...` so the user implements everything themselves.
 
 ### 2. Socratic Guidance & No Spoilers
 - When the user asks questions or gets stuck, explain underlying concepts using analogies, diagrams, and theoretical explanations.
