@@ -18,7 +18,7 @@ A hands-on, practical repository designed to master intermediate and advanced Go
 ### 2. Advanced Error Handling & Resilience
 - [x] **06. Error Trees & Custom Types**: `Unwrap()`, `errors.Is()`, `errors.As()`, and structured domain errors.
 - [x] **07. Concurrency Panic & Recovery**: Safe panic handling and recovery across worker goroutines.
-- [ ] **08. Resilience Patterns**: Circuit Breaker, Exponential Backoff + Retry mechanisms.
+- [x] **08. Resilience Patterns**: Circuit Breaker, Exponential Backoff + Retry mechanisms.
 
 ### 3. Generics & Type System
 - [ ] **09. Generic Functions & Constraints**: Custom constraints, `comparable`, `any`, and type parameter inference.
