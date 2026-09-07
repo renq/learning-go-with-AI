@@ -58,8 +58,6 @@ import (
 	"time"
 )
 
-// TODO 1: Define ErrCircuitOpen and Circuit Breaker States (StateClosed, StateOpen, StateHalfOpen)
-
 var ErrCircuitOpen = errors.New("circuit breaker is open: fast failing request")
 
 type State int
@@ -82,8 +80,6 @@ func (s State) String() string {
 	return ""
 }
 
-// TODO 2: Define CircuitBreaker struct and constructor NewCircuitBreaker
-
 type CircuitBreaker struct {
 	mu               sync.Mutex
 	state            State
@@ -100,8 +96,6 @@ func NewCircuitBreaker(failureThreshold int, resetTimeout time.Duration) *Circui
 		state:            StateClosed,
 	}
 }
-
-// TODO 3: Implement (cb *CircuitBreaker) Execute(fn func() error) error
 
 func (cb *CircuitBreaker) Execute(fn func() error) error {
 	var err error
@@ -148,8 +142,6 @@ func (cb *CircuitBreaker) Execute(fn func() error) error {
 	return err
 }
 
-// TODO 4: Implement RetryWithBackoff(ctx context.Context, maxAttempts int, initialDelay time.Duration, fn func() error) error
-
 func RetryWithBackoff(ctx context.Context, maxAttempts int, initialDelay time.Duration, fn func() error) error {
 	delay := initialDelay
 	var err error
@@ -178,7 +170,6 @@ func RetryWithBackoff(ctx context.Context, maxAttempts int, initialDelay time.Du
 func main() {
 	fmt.Println("Task 8: Resilience Patterns (Circuit Breaker & Exponential Backoff)")
 
-	// TODO 5: Test Part 1 (Exponential Backoff with success and timeout)
 	ctx := context.Background()
 
 	flakyCounter := 0

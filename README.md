@@ -21,21 +21,22 @@ A hands-on, practical repository designed to master intermediate and advanced Go
 - [x] **08. Resilience Patterns**: Circuit Breaker, Exponential Backoff + Retry mechanisms.
 
 ### 3. Generics & Type System
-- [ ] **09. Generic Functions & Constraints**: Custom constraints, `comparable`, `any`, and type parameter inference.
+- [x] **09. Generic Functions & Constraints**: Custom constraints, `comparable`, `any`, and type parameter inference.
 - [ ] **10. Advanced Generics & Data Structures**: Type approximation (`~T`), union sets, and concurrent-safe generic collections (e.g. Generic LRU Cache / Queue).
 
-### 4. Advanced I/O & Streaming
-- [ ] **11. Custom Readers & Writers**: Custom `io.Reader` / `io.Writer` wrapping, buffering, rate-limited streams, and streaming data parsers.
-- [ ] **12. Graceful Shutdown & Network Architecture**: Clean shutdown of HTTP/gRPC servers, connection pooling, and OS signal trapping (`os.Signal`).
+### 4. Networking: Advanced HTTP Client & gRPC Services
+- [ ] **11. Production-Grade HTTP Client & RoundTrippers**: Custom `http.Transport`, connection pooling/reuse, TLS tuning, fine-grained timeouts, and custom `http.RoundTripper` middlewares (Auth, Logging, Metrics).
+- [ ] **12. gRPC Client & Server Architecture**: Unary & Streaming RPCs, Context metadata/deadlines propagation, and Client/Server Interceptors (Middleware).
+- [ ] **13. Custom I/O & Streaming**: Custom `io.Reader` / `io.Writer` wrapping, stream transformation, and OS signal Graceful Shutdown (`os.Signal`).
 
 ### 5. Memory, Performance & Profiling
-- [ ] **13. Memory Re-use & `sync.Pool`**: Mitigating Garbage Collector (GC) pressure with object reuse and slice preallocations.
-- [ ] **14. Escape Analysis & Memory Alignment**: Stack vs. heap allocations, struct field alignment, and zero-allocation patterns.
-- [ ] **15. Benchmarking & Profiling**: `testing.B`, `pprof` (CPU, heap, goroutine profiles), and `go tool trace`.
+- [ ] **14. Memory Re-use & `sync.Pool`**: Mitigating Garbage Collector (GC) pressure with object reuse and slice preallocations.
+- [ ] **15. Escape Analysis & Memory Alignment**: Stack vs. heap allocations, struct field alignment, and zero-allocation patterns.
+- [ ] **16. Benchmarking & Profiling**: `testing.B`, `pprof` (CPU, heap, goroutine profiles), and `go tool trace`.
 
 ### 6. Metaprogramming & Low-Level Mechanics
-- [ ] **16. Reflection (`reflect`)**: Dynamic type inspection, struct tags, and generic serializers.
-- [ ] **17. Low-Level Memory (`unsafe`)**: `unsafe.Pointer`, zero-copy string-byte conversions, and memory offsets.
+- [ ] **17. Reflection (`reflect`)**: Dynamic type inspection, struct tags, and generic serializers.
+- [ ] **18. Low-Level Memory (`unsafe`)**: `unsafe.Pointer`, zero-copy string-byte conversions, and memory offsets.
 
 ---
 
