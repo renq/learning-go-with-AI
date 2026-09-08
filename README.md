@@ -22,7 +22,7 @@ A hands-on, practical repository designed to master intermediate and advanced Go
 
 ### 3. Generics & Type System
 - [x] **09. Generic Functions & Constraints**: Custom constraints, `comparable`, `any`, and type parameter inference.
-- [ ] **10. Advanced Generics & Data Structures**: Type approximation (`~T`), union sets, and concurrent-safe generic collections (e.g. Generic LRU Cache / Queue).
+- [x] **10. Advanced Generics & Data Structures**: Type approximation (`~T`), union sets, and concurrent-safe generic collections (e.g. Generic LRU Cache / Queue).
 
 ### 4. Networking: Advanced HTTP Client & gRPC Services
 - [ ] **11. Production-Grade HTTP Client & RoundTrippers**: Custom `http.Transport`, connection pooling/reuse, TLS tuning, fine-grained timeouts, and custom `http.RoundTripper` middlewares (Auth, Logging, Metrics).
