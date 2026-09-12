@@ -25,7 +25,7 @@ A hands-on, practical repository designed to master intermediate and advanced Go
 - [x] **10. Advanced Generics & Data Structures**: Type approximation (`~T`), union sets, and concurrent-safe generic collections (e.g. Generic LRU Cache / Queue).
 
 ### 4. Networking: Advanced HTTP Client & gRPC Services
-- [ ] **11. Production-Grade HTTP Client & RoundTrippers**: Custom `http.Transport`, connection pooling/reuse, TLS tuning, fine-grained timeouts, and custom `http.RoundTripper` middlewares (Auth, Logging, Metrics).
+- [x] **11. Production-Grade HTTP Client & RoundTrippers**: Custom `http.Transport`, connection pooling/reuse, TLS tuning, fine-grained timeouts, and custom `http.RoundTripper` middlewares (Auth, Logging, Metrics).
 - [ ] **12. gRPC Client & Server Architecture**: Unary & Streaming RPCs, Context metadata/deadlines propagation, and Client/Server Interceptors (Middleware).
 - [ ] **13. Custom I/O & Streaming**: Custom `io.Reader` / `io.Writer` wrapping, stream transformation, and OS signal Graceful Shutdown (`os.Signal`).
 
