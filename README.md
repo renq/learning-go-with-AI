@@ -27,7 +27,7 @@ A hands-on, practical repository designed to master intermediate and advanced Go
 ### 4. Networking: Advanced HTTP Client & gRPC Services
 - [x] **11. Production-Grade HTTP Client & RoundTrippers**: Custom `http.Transport`, connection pooling/reuse, TLS tuning, fine-grained timeouts, and custom `http.RoundTripper` middlewares (Auth, Logging, Metrics).
 - [x] **12. gRPC Client & Server Architecture**: Unary & Streaming RPCs, Context metadata/deadlines propagation, and Client/Server Interceptors (Middleware).
-- [ ] **13. Custom I/O & Streaming**: Custom `io.Reader` / `io.Writer` wrapping, stream transformation, and OS signal Graceful Shutdown (`os.Signal`).
+- [x] **13. Custom I/O & Streaming**: Custom `io.Reader` / `io.Writer` wrapping, stream transformation, and OS signal Graceful Shutdown (`os.Signal`).
 
 ### 5. Memory, Performance & Profiling
 - [ ] **14. Memory Re-use & `sync.Pool`**: Mitigating Garbage Collector (GC) pressure with object reuse and slice preallocations.

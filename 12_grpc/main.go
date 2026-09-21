@@ -266,17 +266,4 @@ func main() {
 	conn.Close()
 	conn2.Close()
 	server.GracefulStop()
-
-	// TODO 7: Run scenarios (Happy path, InvalidArgument, Unauthenticated, DeadlineExceeded, and GracefulStop)
-	/*
-		   - Run test scenarios:
-		     a) Scenario 1 (Happy Path): Send a valid order (`OrderID: "ord-1", Amount: 99.99`) -> verify success.
-		     b) Scenario 2 (Validation Error): Send invalid order (`Amount: -10`) -> verify client receives `codes.InvalidArgument` using `status.FromError(err)`.
-		     c) Scenario 3 (Authentication Failure): Call without valid auth token -> verify client receives `codes.Unauthenticated`.
-		     d) Scenario 4 (Deadline Exceeded): Call `OrderID: "slow"` with a short context timeout (e.g., `50ms`) -> verify client receives `codes.DeadlineExceeded`.
-		   - Perform graceful shutdown: `grpcServer.GracefulStop()` and `conn.Close()`.
-		   - Verify that the program finishes cleanly and passes `go run -race 12_grpc/main.go`.
-
-				Good luck! Implement your solution below.
-	*/
 }
